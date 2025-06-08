@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Course Quiz</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="sidebar">
+    <h2>Subjects</h2>
+    <ul>
+      <li class="active">AI</li>
+    </ul>
+  </div>
+
+  <div class="main">
+    <header>
+      <h1>Course: Artificial Intelligence</h1>
+      <div class="timer" id="timer">Time remaining: 50:00</div>
+    </header>
+
+    <div class="question-box">
+      <h3 id="question-text">Loading question...</h3>
+      <ul id="options-list"></ul>
+
+      <div class="navigation">
+        <button onclick="prevQuestion()">Previous</button>
+        <button onclick="nextQuestion()">Next</button>
+      </div>
+    </div>
+
+    <div class="question-numbers" id="question-numbers"></div>
+
+    <div class="submit-section">
+      <button onclick="submitQuiz()">Submit Quiz</button>
+    </div>
+
+    <div class="result" id="result" style="display:none;"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
