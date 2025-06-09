@@ -1,153 +1,153 @@
 let questions = [
-  {
-    "question": "What is AI short for?",
-    "options": ["Artificial Intelligence", "Amazing Internet", "Apple Ice", "Animal Inspector"],
+  { // Easy
+    "question": "What does AI stand for?",
+    "options": ["Artificial Intelligence", "Automated Information", "Advanced Internet", "Algorithmic Input"],
     "answer": 0,
-    "explanation": "AI stands for Artificial Intelligence, which means making computers smart!"
+    "explanation": "AI stands for Artificial Intelligence - programs that can learn and make decisions.",
+    "difficulty": "easy"
   },
-  {
-    "question": "Which of these is an example of AI?",
-    "options": ["A talking robot", "A bicycle", "A pencil", "A chair"],
+  { // Medium
+    "question": "What is the main purpose of a training dataset in machine learning?",
+    "options": [
+      "To teach the model patterns",
+      "To test the final model",
+      "To store backup data", 
+      "To visualize results"
+    ],
     "answer": 0,
-    "explanation": "Talking robots use AI to understand and respond to people."
+    "explanation": "The training set is used to teach the model to recognize patterns before testing it on new data.",
+    "difficulty": "medium"
   },
-  {
-    "question": "What does a smart speaker (like Alexa) use to answer questions?",
-    "options": ["Artificial Intelligence", "Magic", "A tiny person inside", "Wind power"],
+  { // Easy
+    "question": "Which of these is an example of AI you use every day?",
+    "options": ["Voice assistants (Siri/Alexa)", "Calculator app", "Camera flash", "Alarm clock"],
     "answer": 0,
-    "explanation": "Smart speakers use AI to listen and give answers."
+    "explanation": "Voice assistants use AI to understand and respond to speech.",
+    "difficulty": "easy"
   },
-  {
-    "question": "Which of these can AI help with?",
-    "options": ["Answering homework questions", "Making pizza dough", "Growing plants", "Painting a house"],
+  { // Hard
+    "question": "What problem does dropout solve in neural networks?",
+    "options": [
+      "Overfitting",
+      "Slow training speed",
+      "Data imbalance",
+      "Feature selection"
+    ],
     "answer": 0,
-    "explanation": "AI like chatbots can help explain school topics!"
+    "explanation": "Dropout randomly deactivates neurons during training to prevent over-reliance on specific nodes.",
+    "difficulty": "hard"
   },
-  {
-    "question": "What do self-driving cars use to see the road?",
-    "options": ["Cameras and sensors", "Binoculars", "Telescopes", "Magnifying glasses"],
+  { // Easy
+    "question": "Can current AI feel emotions?",
+    "options": ["No", "Yes", "Only positive ones", "Only when programmed to"],
     "answer": 0,
-    "explanation": "They use special cameras and sensors just like eyes!"
+    "explanation": "AI can simulate emotions but doesn't experience them like humans.",
+    "difficulty": "easy"
   },
-  {
-    "question": "Can AI feel emotions like humans?",
-    "options": ["No", "Yes", "Only at night", "When it rains"],
+  { // Medium
+    "question": "Why do we split data into training and test sets?",
+    "options": [
+      "To check if the model works on new data",
+      "To make the dataset smaller",
+      "Because some data is faulty",
+      "It's required for all algorithms"
+    ],
     "answer": 0,
-    "explanation": "AI can pretend but doesn't feel real emotions."
+    "explanation": "The test set acts as unseen data to evaluate real-world performance.",
+    "difficulty": "medium"
   },
-  {
-    "question": "Which of these is NOT a robot?",
-    "options": ["A toaster", "A vacuum that cleans by itself", "A toy dinosaur that walks", "A car that drives itself"],
+  { // Hard
+    "question": "What does the 'attention mechanism' in transformers do?",
+    "options": [
+      "Focuses on relevant parts of input",
+      "Speeds up training",
+      "Reduces memory usage",
+      "Generates random outputs"
+    ],
     "answer": 0,
-    "explanation": "Regular toasters don't use AI or move on their own!"
+    "explanation": "It weights the importance of different input parts (like focusing on key words in a sentence).",
+    "difficulty": "hard"
   },
-  {
-    "question": "What does a face recognition app use?",
-    "options": ["AI to identify people", "A secret password", "Fingerprints", "Your voice"],
+  { // Easy
+    "question": "Which device commonly uses facial recognition AI?",
+    "options": ["Smartphones", "Microwaves", "Hair dryers", "Doorbells"],
     "answer": 0,
-    "explanation": "It uses AI to study face shapes and features."
+    "explanation": "Phones use it for unlocking and photo organization.",
+    "difficulty": "easy"
   },
-  {
-    "question": "How do video games use AI?",
-    "options": ["To make smart enemies", "To paint the screen", "To build the game console", "To add sound effects"],
+  { // Medium
+    "question": "What's the key advantage of random forests over single decision trees?",
+    "options": [
+      "Reduces overfitting",
+      "Trains faster",
+      "Works without data",
+      "Only needs 10 samples"
+    ],
     "answer": 0,
-    "explanation": "AI helps game characters act smart and challenging!"
+    "explanation": "By combining many trees, it averages out individual errors.",
+    "difficulty": "medium"
   },
-  {
-    "question": "What is a chatbot?",
-    "options": ["A computer program that talks", "A robot waiter", "A phone case", "A video game controller"],
+  { // Hard
+    "question": "What does batch normalization accomplish in deep learning?",
+    "options": [
+      "Stabilizes layer inputs",
+      "Increases batch size",
+      "Skips gradient steps",
+      "Visualizes features"
+    ],
     "answer": 0,
-    "explanation": "Chatbots use AI to have text conversations."
+    "explanation": "It normalizes inputs to each layer to maintain stable learning.",
+    "difficulty": "hard"
   },
-  {
-    "question": "Which of these uses AI to recommend videos?",
-    "options": ["YouTube", "A calculator", "A flashlight app", "A calendar"],
+  { // Easy
+    "question": "What do robot vacuums use to navigate?",
+    "options": ["Sensors and AI", "Magic", "Remote control", "Human eyesight"],
     "answer": 0,
-    "explanation": "YouTube's AI suggests videos you might like!"
+    "explanation": "They map rooms using sensors and AI pathfinding.",
+    "difficulty": "easy"
   },
-  {
-    "question": "What is machine learning?",
-    "options": ["Teaching computers with examples", "Building robots with tools", "Playing video games", "Drawing pictures"],
+  { // Medium
+    "question": "When would you use precision over accuracy?",
+    "options": [
+      "When false positives are dangerous (e.g., spam filtering)",
+      "For all classification problems",
+      "Only with neural networks",
+      "When data is perfectly balanced"
+    ],
     "answer": 0,
-    "explanation": "It's how AI learns from data, like practicing math problems."
+    "explanation": "Precision measures how many flagged items are truly positive.",
+    "difficulty": "medium"
   },
-  {
-    "question": "Which animal is often shown with robots in movies?",
-    "options": ["Dogs", "Cats", "Fish", "Birds"],
+  { // Easy
+    "question": "Can AI create original artwork?",
+    "options": ["Yes, like DALL-E", "No, never", "Only by copying", "Only in black/white"],
     "answer": 0,
-    "explanation": "Robot dogs like Sony's Aibo are famous AI pets!"
+    "explanation": "AI art tools generate new images from text prompts.",
+    "difficulty": "easy"
   },
-  {
-    "question": "What does 'smart' mean in 'smartphone'?",
-    "options": ["It can use AI apps", "It's very heavy", "It changes color", "It can fly"],
+  { // Hard
+    "question": "What is vanishing gradient problem?",
+    "options": [
+      "Early layers learn too slowly in deep networks",
+      "Data disappears during training",
+      "Models become too accurate",
+      "GPUs overheat"
+    ],
     "answer": 0,
-    "explanation": "Smartphones have AI for photos, maps, and assistants!"
+    "explanation": "Gradients become extremely small as they backpropagate, stalling learning in early layers.",
+    "difficulty": "hard"
   },
-  {
-    "question": "Can AI write stories?",
-    "options": ["Yes, like ChatGPT", "No, never", "Only in winter", "Only about animals"],
+  { // Medium
+    "question": "What does SMOTE do for imbalanced datasets?",
+    "options": [
+      "Creates synthetic minority samples",
+      "Deletes majority samples",
+      "Speeds up training",
+      "Reduces feature count"
+    ],
     "answer": 0,
-    "explanation": "AI like ChatGPT can write poems and stories!"
-  },
-  {
-    "question": "What do robots use to move their arms?",
-    "options": ["Motors", "Muscles", "Batteries", "Solar power"],
-    "answer": 0,
-    "explanation": "Motors help robots move just like our muscles!"
-  },
-  {
-    "question": "Which of these is safe to tell an AI assistant?",
-    "options": ["What's the weather?", "Your home address", "Your password", "Your mom's name"],
-    "answer": 0,
-    "explanation": "Never share private info with AI!"
-  },
-  {
-    "question": "What does a robot vacuum use to clean?",
-    "options": ["AI to map rooms", "A broom", "A mop", "A dustpan"],
-    "answer": 0,
-    "explanation": "It uses AI to remember where it cleaned!"
-  },
-  {
-    "question": "Which job can AI do?",
-    "options": ["Answer customer questions", "Eat pizza", "Go swimming", "Take naps"],
-    "answer": 0,
-    "explanation": "AI chatbots help customers in online stores!"
-  },
-  {
-    "question": "What is a 'smart home'?",
-    "options": ["A house with AI devices", "A house made of glass", "A treehouse", "A house that floats"],
-    "answer": 0,
-    "explanation": "Smart homes use AI for lights, security, and more!"
-  },
-  {
-    "question": "Can AI play chess?",
-    "options": ["Yes, very well!", "No, it's too hard", "Only on Tuesdays", "Only with 2 players"],
-    "answer": 0,
-    "explanation": "AI like Deep Blue beat world champions!"
-  },
-  {
-    "question": "What does a voice assistant (like Siri) need to work?",
-    "options": ["Microphone to hear you", "A camera", "A printer", "A keyboard"],
-    "answer": 0,
-    "explanation": "It listens through your phone's microphone!"
-  },
-  {
-    "question": "Which of these is made by AI?",
-    "options": ["A cartoon drawn by computer", "A sandwich", "A paper airplane", "A wooden chair"],
-    "answer": 0,
-    "explanation": "AI art tools can create cartoons and paintings!"
-  },
-  {
-    "question": "Will AI replace all human jobs?",
-    "options": ["No, just some", "Yes, next year", "Only in space", "Only for teachers"],
-    "answer": 0,
-    "explanation": "AI helps with some tasks but needs humans too!"
-  },
-  {
-    "question": "What is the most important thing about AI?",
-    "options": ["It helps people", "It's scary", "It can replace humans", "It doesn't need electricity"],
-    "answer": 0,
-    "explanation": "The best AI helps doctors, teachers, and scientists!"
+    "explanation": "It oversamples the minority class by generating similar but artificial examples.",
+    "difficulty": "medium"
   }
 ];
 
