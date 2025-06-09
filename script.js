@@ -1,133 +1,128 @@
 let questions = [
   {
-    "question": "Which metric is used to evaluate classification models?",
-    "options": ["Accuracy", "Mean Squared Error", "R-squared", "Clustering Score"],
+    "question": "What does AI stand for?",
+    "options": ["Artificial Intelligence", "Amazing Ideas", "Auto Insurance", "Animal Inspector"],
     "answer": 0
   },
   {
-    "question": "What is the primary goal of supervised learning?",
-    "options": ["To learn from labeled data", "To find patterns in unlabeled data", "To optimize game strategies", "To generate random outputs"],
+    "question": "Which of these is an example of AI?",
+    "options": ["A calculator", "A voice assistant like Siri", "A bicycle", "A pencil"],
+    "answer": 1
+  },
+  {
+    "question": "What do robots use to 'see' things?",
+    "options": ["Cameras", "Microphones", "Sunglasses", "Wheels"],
     "answer": 0
   },
   {
-    "question": "Which of the following is a type of machine learning?",
-    "options": ["Supervised Learning", "Unsupervised Learning", "Reinforcement Learning", "All of the above"],
-    "answer": 3
+    "question": "What is a chatbot?",
+    "options": ["A robot that cleans floors", "A computer program that talks like a human", "A type of video game", "A flying drone"],
+    "answer": 1
   },
   {
-    "question": "What does 'AI' stand for?",
-    "options": ["Artificial Intelligence", "Automated Inference", "Advanced Integration", "Algorithmic Intelligence"],
+    "question": "Which of these is NOT a use of AI?",
+    "options": ["Playing chess", "Washing dishes by hand", "Recognizing faces in photos", "Driving self-driving cars"],
+    "answer": 1
+  },
+  {
+    "question": "What is machine learning?",
+    "options": ["Teaching computers to learn from data", "Building robots with tools", "A sports training method", "A cooking technique"],
     "answer": 0
   },
   {
-    "question": "Which algorithm is commonly used for classification tasks?",
-    "options": ["Linear Regression", "K-Means", "Decision Tree", "Principal Component Analysis"],
+    "question": "Which animal is often used to represent AI in movies?",
+    "options": ["A dog", "A cat", "A robot", "A dolphin"],
     "answer": 2
   },
   {
-    "question": "What is overfitting in machine learning?",
-    "options": ["When a model performs well on training data but poorly on test data", "When a model is too simple", "When data is perfectly balanced", "When a model ignores noise"],
+    "question": "What does a self-driving car use to navigate?",
+    "options": ["Sensors and AI", "A magic wand", "A remote control", "A bicycle horn"],
     "answer": 0
   },
   {
-    "question": "Which of these is NOT a neural network type?",
-    "options": ["CNN (Convolutional Neural Network)", "RNN (Recurrent Neural Network)", "SVM (Support Vector Machine)", "GAN (Generative Adversarial Network)"],
-    "answer": 2
-  },
-  {
-    "question": "What is the purpose of a loss function?",
-    "options": ["To measure model performance", "To generate random numbers", "To visualize data", "To clean datasets"],
+    "question": "What is the name of the AI in smartphones that answers questions?",
+    "options": ["Siri/Alexa/Google Assistant", "Superman", "Calculator", "Camera"],
     "answer": 0
   },
   {
-    "question": "Which Python library is commonly used for machine learning?",
-    "options": ["TensorFlow", "Pandas", "Scikit-learn", "All of the above"],
-    "answer": 3
-  },
-  {
-    "question": "What does 'deep learning' refer to?",
-    "options": ["A type of machine learning using neural networks with many layers", "A method for data cleaning", "A statistical technique for regression", "A clustering algorithm"],
-    "answer": 0
-  },
-  {
-    "question": "Which of the following is an example of unsupervised learning?",
-    "options": ["Linear Regression", "K-Means Clustering", "Logistic Regression", "Support Vector Machines"],
+    "question": "Which of these is made by AI?",
+    "options": ["A handwritten letter", "A painting created by a computer", "A tree", "A rock"],
     "answer": 1
   },
   {
-    "question": "What is the role of an activation function in a neural network?",
-    "options": ["To introduce non-linearity", "To store weights", "To normalize data", "To shuffle datasets"],
+    "question": "What is data in AI?",
+    "options": ["Information used to train computers", "A type of food", "A musical instrument", "A sports car"],
     "answer": 0
   },
   {
-    "question": "Which metric is used for regression models?",
-    "options": ["Accuracy", "Mean Squared Error (MSE)", "Precision", "F1 Score"],
+    "question": "What does a robot use to move?",
+    "options": ["Motors", "Thoughts", "Magical powers", "A keyboard"],
+    "answer": 0
+  },
+  {
+    "question": "Which of these can AI help with?",
+    "options": ["Answering questions", "Making pizza", "Growing taller", "Turning into a superhero"],
+    "answer": 0
+  },
+  {
+    "question": "What is a computer program?",
+    "options": ["Instructions for a computer", "A TV show", "A type of sandwich", "A musical note"],
+    "answer": 0
+  },
+  {
+    "question": "Which device often uses AI at home?",
+    "options": ["A smart speaker (like Alexa)", "A toaster", "A chair", "A lamp"],
+    "answer": 0
+  },
+  {
+    "question": "Can AI feel emotions like humans?",
+    "options": ["Yes", "No", "Only on weekends", "Only when it rains"],
     "answer": 1
   },
   {
-    "question": "What is a feature in machine learning?",
-    "options": ["An input variable used for making predictions", "A type of algorithm", "A visualization tool", "A debugging technique"],
-    "answer": 0
-  },
-  {
-    "question": "Which of these is a reinforcement learning example?",
-    "options": ["Training a robot to walk", "Classifying emails as spam or not", "Grouping customers by behavior", "Predicting house prices"],
-    "answer": 0
-  },
-  {
-    "question": "What is the purpose of a training set in machine learning?",
-    "options": ["To train the model", "To test the model", "To deploy the model", "To visualize data"],
-    "answer": 0
-  },
-  {
-    "question": "Which of the following is NOT a supervised learning task?",
-    "options": ["Classification", "Regression", "Clustering", "Image Recognition"],
-    "answer": 2
-  },
-  {
-    "question": "What does 'epoch' mean in deep learning?",
-    "options": ["One complete pass through the training dataset", "A type of neural network", "A loss function", "A data preprocessing step"],
-    "answer": 0
-  },
-  {
-    "question": "Which algorithm is used for dimensionality reduction?",
-    "options": ["K-Nearest Neighbors", "Principal Component Analysis (PCA)", "Random Forest", "Logistic Regression"],
+    "question": "What is a common AI toy for kids?",
+    "options": ["A stuffed animal", "A robot dog", "A wooden block", "A water bottle"],
     "answer": 1
   },
   {
-    "question": "What is the main advantage of using a decision tree?",
-    "options": ["Easy to interpret", "Requires large amounts of data", "Works only for regression", "Slow training time"],
+    "question": "What does 'smart' mean in 'smartphone'?",
+    "options": ["It can use AI and apps", "It can fly", "It can cook food", "It can swim"],
     "answer": 0
   },
   {
-    "question": "Which of these is a popular AI application?",
-    "options": ["Facial recognition", "Weather forecasting", "Stock market prediction", "All of the above"],
-    "answer": 3
-  },
-  {
-    "question": "What is a hyperparameter in machine learning?",
-    "options": ["A parameter set before training", "A learned parameter", "A type of dataset", "A visualization method"],
+    "question": "Which job can AI do?",
+    "options": ["Answer customer questions", "Eat food", "Sleep", "Take a vacation"],
     "answer": 0
   },
   {
-    "question": "Which of these is a common activation function?",
-    "options": ["ReLU", "MSE", "PCA", "KNN"],
+    "question": "What is a computer's 'brain' called?",
+    "options": ["CPU", "Screen", "Keyboard", "Mouse"],
     "answer": 0
   },
   {
-    "question": "What is the purpose of cross-validation?",
-    "options": ["To evaluate model performance robustly", "To clean data", "To visualize neural networks", "To generate synthetic data"],
-    "answer": 0
-  },
-  {
-    "question": "Which of the following is an example of a classification problem?",
-    "options": ["Predicting house prices", "Identifying spam emails", "Grouping similar customers", "Forecasting stock prices"],
+    "question": "Which of these is NOT a robot?",
+    "options": ["A vacuum cleaner that moves by itself", "A person", "A toy that talks", "A car with no driver"],
     "answer": 1
   },
   {
-    "question": "What is the main challenge in AI ethics?",
-    "options": ["Bias in algorithms", "Computing power", "Data storage", "Model interpretability"],
+    "question": "What is coding?",
+    "options": ["Writing instructions for computers", "Drawing pictures", "Playing music", "Building a house"],
     "answer": 0
+  },
+  {
+    "question": "Which of these is safe to share with AI?",
+    "options": ["Your favorite color", "Your home address", "Your password", "Your family secrets"],
+    "answer": 0
+  },
+  {
+    "question": "What can AI do better than humans?",
+    "options": ["Solve math problems quickly", "Feel love", "Eat pizza", "Blink"],
+    "answer": 0
+  },
+  {
+    "question": "Will AI replace all human jobs?",
+    "options": ["Yes", "No", "Only on Mars", "Only in cartoons"],
+    "answer": 1
   }
 ];
 
