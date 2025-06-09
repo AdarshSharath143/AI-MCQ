@@ -1,131 +1,134 @@
 let questions = [
   {
-  question: "What does AI stand for?",
-  options: ["Artificial Intelligence", "Automated Internet", "Advanced Input", "Automatic Integration"],
-  answer: 0
-},
-{
-  question: "Which is an example of AI?",
-  options: ["Calculator", "Google Maps", "Light Bulb", "Fan"],
-  answer: 1
-},
-{
-  question: "Which device uses AI to recognize your voice?",
-  options: ["Microwave", "Speaker", "Smartphone", "Keyboard"],
-  answer: 2
-},
+    "question": "Which metric is used to evaluate classification models?",
+    "options": ["Accuracy", "Mean Squared Error", "R-squared", "Clustering Score"],
+    "answer": 0
+  },
   {
-  question: "Which of these is a common application of AI?",
-  options: ["Email spam filter", "Television", "Refrigerator", "Light switch"],
-  answer: 0
-},
-{
-  question: "What is a chatbot?",
-  options: ["A robot that cleans", "A program that talks with users", "A toy", "A machine that builds houses"],
-  answer: 1
-},
-{
-  question: "Which field is most related to AI?",
-  options: ["Cooking", "Gardening", "Computer Science", "Painting"],
-  answer: 2
-},
-{
-  question: "AI helps computers to:",
-  options: ["Sleep", "Think and learn", "Eat", "Dance"],
-  answer: 1
-},
-{
-  question: "Which of these is used in AI to learn from data?",
-  options: ["Machine Learning", "Manual Coding", "Copying", "Drawing"],
-  answer: 0
-},
-{
-  question: "AI is mostly used in which modern service?",
-  options: ["Online shopping suggestions", "Paper delivery", "Street cleaning", "Brick making"],
-  answer: 0
-},
-{
-  question: "Which assistant uses AI?",
-  options: ["Siri", "Calculator", "Clock", "Flashlight"],
-  answer: 0
-},
-{
-  question: "AI stands for:",
-  options: ["Automatic Information", "Artificial Intelligence", "Auto Input", "Advanced Integration"],
-  answer: 1
-},
-{
-  question: "Which one is NOT an AI application?",
-  options: ["Face recognition", "Autonomous cars", "Online exams", "Light bulb"],
-  answer: 3
-},
-{
-  question: "AI helps in recognizing:",
-  options: ["Voices and faces", "Smells", "Tastes", "Touch"],
-  answer: 0
-},
+    "question": "What is the primary goal of supervised learning?",
+    "options": ["To learn from labeled data", "To find patterns in unlabeled data", "To optimize game strategies", "To generate random outputs"],
+    "answer": 0
+  },
   {
-  question: "Which algorithm is commonly used for classification tasks in AI?",
-  options: ["K-Means", "Naive Bayes", "Linear Regression", "PCA"],
-  answer: 1
-},
-{
-  question: "What is overfitting in machine learning?",
-  options: ["Model performs well on all data", "Model memorizes training data", "Model doesn't learn at all", "Model has high bias"],
-  answer: 1
-},
-{
-  question: "Which of the following is a supervised learning algorithm?",
-  options: ["K-Means", "Apriori", "Decision Tree", "Autoencoder"],
-  answer: 2
-},
-{
-  question: "What does a neural network model consist of?",
-  options: ["Nodes and links", "Weights and neurons", "Loops and counters", "Conditions and branches"],
-  answer: 1
-},
-{
-  question: "What is the main goal of reinforcement learning?",
-  options: ["Classify data", "Group data", "Maximize reward", "Minimize bias"],
-  answer: 2
-},
-{
-  question: "What is 'backpropagation' used for?",
-  options: ["Visualizing data", "Training neural networks", "Sorting datasets", "Reducing features"],
-  answer: 1
-},
-{
-  question: "Which of the following is a benefit of using deep learning?",
-  options: ["Works with small data", "No training required", "Learns features automatically", "Needs no hardware"],
-  answer: 2
-},
-{
-  question: "Which AI technique is best for finding patterns without labels?",
-  options: ["Supervised learning", "Reinforcement learning", "Unsupervised learning", "Regression"],
-  answer: 2
-},
-{
-  question: "What is the 'bias' in a machine learning model?",
-  options: ["An input feature", "A kind of error", "A label", "A hidden neuron"],
-  answer: 1
-},
-{
-  question: "Which of the following is an activation function in neural networks?",
-  options: ["ReLU", "RMS", "MSE", "ROC"],
-  answer: 0
-},
+    "question": "Which of the following is a type of machine learning?",
+    "options": ["Supervised Learning", "Unsupervised Learning", "Reinforcement Learning", "All of the above"],
+    "answer": 3
+  },
   {
-  question: "Which language is most commonly used for developing AI models?",
-  options: ["Java", "Python", "C++", "Ruby"],
-  answer: 1
-},
-{
-  question: "Which metric is used to evaluate classification models?",
-  options: ["Accuracy", "Mean Squared Error", "R-squared", "Clustering Score"],
-  answer: 0
-}
-
-  // 48 more to be added...
+    "question": "What does 'AI' stand for?",
+    "options": ["Artificial Intelligence", "Automated Inference", "Advanced Integration", "Algorithmic Intelligence"],
+    "answer": 0
+  },
+  {
+    "question": "Which algorithm is commonly used for classification tasks?",
+    "options": ["Linear Regression", "K-Means", "Decision Tree", "Principal Component Analysis"],
+    "answer": 2
+  },
+  {
+    "question": "What is overfitting in machine learning?",
+    "options": ["When a model performs well on training data but poorly on test data", "When a model is too simple", "When data is perfectly balanced", "When a model ignores noise"],
+    "answer": 0
+  },
+  {
+    "question": "Which of these is NOT a neural network type?",
+    "options": ["CNN (Convolutional Neural Network)", "RNN (Recurrent Neural Network)", "SVM (Support Vector Machine)", "GAN (Generative Adversarial Network)"],
+    "answer": 2
+  },
+  {
+    "question": "What is the purpose of a loss function?",
+    "options": ["To measure model performance", "To generate random numbers", "To visualize data", "To clean datasets"],
+    "answer": 0
+  },
+  {
+    "question": "Which Python library is commonly used for machine learning?",
+    "options": ["TensorFlow", "Pandas", "Scikit-learn", "All of the above"],
+    "answer": 3
+  },
+  {
+    "question": "What does 'deep learning' refer to?",
+    "options": ["A type of machine learning using neural networks with many layers", "A method for data cleaning", "A statistical technique for regression", "A clustering algorithm"],
+    "answer": 0
+  },
+  {
+    "question": "Which of the following is an example of unsupervised learning?",
+    "options": ["Linear Regression", "K-Means Clustering", "Logistic Regression", "Support Vector Machines"],
+    "answer": 1
+  },
+  {
+    "question": "What is the role of an activation function in a neural network?",
+    "options": ["To introduce non-linearity", "To store weights", "To normalize data", "To shuffle datasets"],
+    "answer": 0
+  },
+  {
+    "question": "Which metric is used for regression models?",
+    "options": ["Accuracy", "Mean Squared Error (MSE)", "Precision", "F1 Score"],
+    "answer": 1
+  },
+  {
+    "question": "What is a feature in machine learning?",
+    "options": ["An input variable used for making predictions", "A type of algorithm", "A visualization tool", "A debugging technique"],
+    "answer": 0
+  },
+  {
+    "question": "Which of these is a reinforcement learning example?",
+    "options": ["Training a robot to walk", "Classifying emails as spam or not", "Grouping customers by behavior", "Predicting house prices"],
+    "answer": 0
+  },
+  {
+    "question": "What is the purpose of a training set in machine learning?",
+    "options": ["To train the model", "To test the model", "To deploy the model", "To visualize data"],
+    "answer": 0
+  },
+  {
+    "question": "Which of the following is NOT a supervised learning task?",
+    "options": ["Classification", "Regression", "Clustering", "Image Recognition"],
+    "answer": 2
+  },
+  {
+    "question": "What does 'epoch' mean in deep learning?",
+    "options": ["One complete pass through the training dataset", "A type of neural network", "A loss function", "A data preprocessing step"],
+    "answer": 0
+  },
+  {
+    "question": "Which algorithm is used for dimensionality reduction?",
+    "options": ["K-Nearest Neighbors", "Principal Component Analysis (PCA)", "Random Forest", "Logistic Regression"],
+    "answer": 1
+  },
+  {
+    "question": "What is the main advantage of using a decision tree?",
+    "options": ["Easy to interpret", "Requires large amounts of data", "Works only for regression", "Slow training time"],
+    "answer": 0
+  },
+  {
+    "question": "Which of these is a popular AI application?",
+    "options": ["Facial recognition", "Weather forecasting", "Stock market prediction", "All of the above"],
+    "answer": 3
+  },
+  {
+    "question": "What is a hyperparameter in machine learning?",
+    "options": ["A parameter set before training", "A learned parameter", "A type of dataset", "A visualization method"],
+    "answer": 0
+  },
+  {
+    "question": "Which of these is a common activation function?",
+    "options": ["ReLU", "MSE", "PCA", "KNN"],
+    "answer": 0
+  },
+  {
+    "question": "What is the purpose of cross-validation?",
+    "options": ["To evaluate model performance robustly", "To clean data", "To visualize neural networks", "To generate synthetic data"],
+    "answer": 0
+  },
+  {
+    "question": "Which of the following is an example of a classification problem?",
+    "options": ["Predicting house prices", "Identifying spam emails", "Grouping similar customers", "Forecasting stock prices"],
+    "answer": 1
+  },
+  {
+    "question": "What is the main challenge in AI ethics?",
+    "options": ["Bias in algorithms", "Computing power", "Data storage", "Model interpretability"],
+    "answer": 0
+  }
 ];
 
 let current = 0;
